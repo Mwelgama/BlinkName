@@ -1,0 +1,182 @@
+// DASH IS 3000ms
+// DOT IS 1000ms
+// BREAK BETWEEN LETTERS IS 3000ms
+
+int led1 = D7; 
+
+void setup() {
+
+
+    pinMode(led1, OUTPUT); }
+
+void loop() {
+
+//M
+    digitalWrite(led1, HIGH);
+
+    delay(3000);
+
+    digitalWrite(led1, LOW);
+
+    delay(1000);
+  
+    digitalWrite(led1, HIGH);
+
+    delay(3000);
+
+    digitalWrite(led1, LOW);
+
+    delay(3000);
+//A
+
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+    
+    delay(3000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(3000);
+//R
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(3000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(3000);
+    
+//S
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(3000);
+
+//H
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(3000);
+
+//A
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(3000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(3000);
+
+//L
+
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+    
+    digitalWrite(led1, HIGH);
+
+    delay(3000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(1000);
+        
+    digitalWrite(led1, HIGH);
+
+    delay(1000);
+    
+    digitalWrite(led1, LOW);
+    
+    delay(3000);
+    
+    //End of the morse code for "MARSHAL"
+}
